@@ -24,13 +24,6 @@
 body {
   background-color: var(--red);
   background-image: url(images/bg-intro-mobile.png);
-  /*
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  */
 }
 
 .intro-component-with-sign-up-form {
