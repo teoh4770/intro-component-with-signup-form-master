@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="intro-component-with-sign-up-form">
+      <header class="inner-container">
+        <h2>Learn to code by watching others</h2>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+      <div class="inner-container">
+        <div class="msg">
+          <span>Try it free 7 days</span> then $20/mo. there after
+        </div>
+        <form class="sign-up-form" action="#">
+          <div class="js-input-container input-container">
+            <label for="first-name"></label>
+            <div class="flex relative">
+              <input
+                type="text"
+                placeholder="First Name"
+                id="firstname"
+                data-msgid="First Name"
+              />
+              <img
+                src="images/icon-error.svg"
+                alt=""
+                class="absolute error-icon hidden"
+              />
+            </div>
+            <p class="error-msg hidden"></p>
+          </div>
+          <div class="js-input-container input-container">
+            <label for="last-name"></label>
+            <div class="flex relative">
+              <input
+                type="text"
+                placeholder="Last Name"
+                id="lastname"
+                data-msgid="Last Name"
+              />
+              <img
+                src="images/icon-error.svg"
+                alt=""
+                class="absolute error-icon hidden"
+              />
+            </div>
+            <p class="error-msg hidden"></p>
+          </div>
+
+          <div class="js-input-container input-container">
+            <label for="email"></label>
+            <div class="flex relative">
+              <input
+                type="email"
+                placeholder="Email Address"
+                id="email"
+                data-msgid="Email Address"
+              />
+              <img
+                src="images/icon-error.svg"
+                alt=""
+                class="absolute error-icon hidden"
+              />
+            </div>
+            <p class="error-msg hidden"></p>
+          </div>
+
+          <div class="js-input-container input-container">
+            <label for="password"></label>
+            <div class="flex relative">
+              <input
+                type="password"
+                placeholder="Password"
+                id="password"
+                data-msgid="Password"
+              />
+              <img
+                src="images/icon-error.svg"
+                alt=""
+                class="absolute error-icon hidden"
+              />
+            </div>
+            <p class="error-msg hidden"></p>
+          </div>
+
+          <button type="submit">Claim your free trial</button>
+
+          <p class="terms-and-condition">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Chee Kian Teoh</a>.
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
